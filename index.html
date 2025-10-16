@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cars</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #000000;
+        }
+        h1 {
+            text-align: center;
+            color: #ff0000;
+        }
+        .car-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .car-item {
+            background: #000000;
+            border: 1px solid #000000;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 15px;
+            width: 300px;
+            box-shadow: 7px 7px 10px rgb(196, 0, 0);
+        }
+        .car-item img {
+            max-width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 10px;
+        }
+        .car-item h2 {
+            margin-top: 0;
+            color: #555;
+        }
+        .car-item p {
+            color: #777;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #aaa;
+            background-color: #555;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Cars</h1>
+    <div class="car-list">
+        <div class="car-item">
+            <img src="download (1).jpeg" alt="Car 1">
+            <h2>Car Model 1</h2>
+            <p>Description of Car Model 1.</p>
+        </div>
+        <div class="car-item">
+            <img src="download (2).jpeg" alt="Car 2">
+            <h2>Car Model 2</h2>
+            <p>Description of Car Model 2.</p>
+        </div>
+        <div class="car-item">
+            <img src="download (3).jpeg" alt="Car 3">
+            <h2>Car Model 3</h2>
+            <p>Description of Car Model 3.</p>
+        </div>
+        <div class="car-item">
+            <h2>Car Model 4</h2>
+            <p>Description of Car Model 4.</p>
+            <img src="download.jpeg" alt="Car 4">
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 Car Gallery. All rights reserved.</p>
+        </div>
+
+</html>
